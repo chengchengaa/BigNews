@@ -15,6 +15,7 @@ $(function() {
             }
         })
     }
+    window.getUserInfo = getUserInfo
 
     function renderAvatar(user) {
         var name = user.nickname || user.username
